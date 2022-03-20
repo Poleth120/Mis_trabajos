@@ -1,0 +1,1 @@
+Aquí encontraremos el script para extraer datos de un formato csv a una base de datos SQL Server.

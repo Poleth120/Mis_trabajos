@@ -1,0 +1,5 @@
+En los siguientes links podemos encontrar diferentes ejercicios de programación los cuales se encuentran en diferentes repositorios del mismo autor.
+Heapsort: https://github.com/Poleth120/HeapSort-1.git
+Búsquedas inserción, interpolación:  https://github.com/Poleth120/Busquedas-Inserci-n-Interpolacion-.git
+Algoritmos-promedio de un alumno: https://github.com/Poleth120/AEAlgoritmos.git
+ALGORITMOS CON DIAGRAMAS DE FLUJO Y PSEUDOCÓDIGO pagina 65 (3.7). Ejercicio factura: https://github.com/Poleth120/DEBER-19.git

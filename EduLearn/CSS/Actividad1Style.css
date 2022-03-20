@@ -1,0 +1,245 @@
+:root {
+    --white: #FFFFFF;
+    --transparent: #F2F2F2;
+    --blue: #0D5FFF9E;
+    --title: 72px;
+    --text: 24px;
+}
+.mainContainer {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: var(--white);
+    justify-content: center;
+}
+.font {
+    position: fixed;
+    height: 200%;
+    width: 101%;
+    top: -310px;
+    left: -2px;
+}
+.uimg {
+    position: fixed;
+    z-index: 100;
+    width: 56px;
+    height: 52px;
+    left: 1420px;
+    top: 8px;
+    border-radius: 100%;
+}
+nav {
+    position: fixed;
+    width: 110%;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+    background: var(--transparent);
+    opacity: 0.7;
+}
+.mint {
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    top: 119px;
+    border-radius: 20px;
+}
+.in {
+    position: fixed;
+    width: 72px;
+    height: 33px;
+    left: 90px;
+    top: 20px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    text-align:center;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.ap {
+    position: absolute;
+    width: 131px;
+    height: 24px;
+    left: 1320px;
+    top: 22px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.no {
+    position: absolute;
+    width: 92px;
+    height: 33px;
+    left: 1220px;
+    top: 22px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.botonArea {
+    position: absolute;
+    width: 158px;
+    height: 30px;
+    left: 17px;
+    top: 123px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.botonArea:hover {
+    background-color: #93ABFF;
+}
+.cu {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 210px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.cu:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.ju {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 310px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.ju:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.du {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 1400px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.du:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.botonPrimario {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 660px;
+    top: 655px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background: rgba(0, 87, 255, 0.8);
+    color: #FFFFFF;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.botonPrimario:hover {
+    background: #0084ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+section a {
+    text-decoration: none;
+}
+.cursoG1 {
+    position: absolute;
+    width: 1017.9px;
+    height: 458px;
+    left: 240px;
+    top: 178px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.cursoG1 img {
+    position: absolute;
+    width: 1000px;
+    height: 440px;
+    border-radius: 20px;
+    opacity: 100%;
+}
+.cursoG1 div {
+    position: absolute;
+    width: 1001px;
+    height: 217.12px;
+    left: -0.5px;
+    top: 225px;
+    background: rgba(97, 189, 255, 0.9);
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+section h1{
+    position: absolute;
+    width: 307px;
+    height: 57px;
+    left: 16px;
+    top: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B4FF69;
+    -webkit-text-stroke: 1px #2DA8B9;
+}
+#migas {
+    position: absolute;
+    width: 615px;
+    height: 104px;
+    left: 165px;
+    top: 60px;
+    font-family: 'Fredoka One', cursive;
+    font-style: Regular;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B4FF69;
+    -webkit-text-stroke: 0.5px #2DA8B9;
+}

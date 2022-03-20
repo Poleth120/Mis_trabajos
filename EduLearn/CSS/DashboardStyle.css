@@ -1,0 +1,541 @@
+:root {
+    --white: #FFFFFF;
+    --transparent: #F2F2F2;
+    --blue: #0D5FFF9E;
+    --title: 72px;
+    --text: 24px;
+}
+.mainContainer {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: var(--white);
+    justify-content: center;
+}
+.font {
+    position: fixed;
+    height: 200%;
+    width: 101%;
+    top: -310px;
+    left: -2px;
+}
+.uimg {
+    position: fixed;
+    z-index: 100;
+    width: 56px;
+    height: 52px;
+    left: 1420px;
+    top: 8px;
+}
+nav {
+    position: fixed;
+    width: 110%;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+    background: var(--transparent);
+    opacity: 0.7;
+}
+.mint {
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    top: 119px;
+    border-radius: 20px;
+}
+.in {
+    position: fixed;
+    width: 72px;
+    height: 33px;
+    left: 90px;
+    top: 20px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    text-align:center;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.ap {
+    position: absolute;
+    width: 131px;
+    height: 24px;
+    left: 1320px;
+    top: 22px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.no {
+    position: absolute;
+    width: 92px;
+    height: 33px;
+    left: 1220px;
+    top: 22px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.botonArea {
+    position: absolute;
+    width: 158px;
+    height: 30px;
+    left: 17px;
+    top: 123px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+.botonArea:hover {
+    background-color: #93ABFF;
+}
+.cu {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 210px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.rep {
+    position: absolute;
+    width: 90px;
+    height: 26px;
+    left: 410px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.rep:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.cu:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.ju {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 310px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.ju:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.du {
+    position: absolute;
+    width: 75px;
+    height: 26px;
+    left: 1400px;
+    top: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.du:hover {
+    background-color: #93ABFF;
+    border-radius: 25px;
+}
+.botonPrimario {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 19px;
+    top: 670px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background: rgba(13, 95, 255, 0.62);
+    color: #FFFFFF;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.botonPrimario:hover {
+    background: #0084ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+section a {
+    text-decoration: none;
+}
+section div a {
+    text-decoration: none;
+    color: #000000;
+}
+.cursoG1 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50px;
+    top: 208px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.cursoG1 img {
+    position: absolute;
+    width: 381px;
+    height: 182px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+.cursoG1 div {
+    position: absolute;
+    width: 381px;
+    height: 87px;
+    left: 0px;
+    top: 100px;
+    background: rgba(97, 189, 255, 0.6);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.cursoG2 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 530px;
+    top: 208px;
+    border: 10px solid #FBC9FC;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.cursoG2 img {
+    position: absolute;
+    width: 381px;
+    height: 182px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+.cursoG2 div {
+    position: absolute;
+    width: 382px;
+    height: 87px;
+    left: -1px;
+    top: 100px;
+    background: #FBC9FC;
+    opacity: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.cursoG3 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50px;
+    top: 440px;
+    border: 10px solid #FDFF7C;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.cursoG3 img {
+    position: absolute;
+    width: 381px;
+    height: 182px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+.cursoG3 div {
+    position: absolute;
+    width: 381px;
+    height: 87px;
+    left: 0px;
+    top: 100px;
+    background: #FDFF7C;
+    opacity: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.cursoG4 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 530px;
+    top: 440px;
+    border: 10px solid #ADFF7B;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.cursoG4 img {
+    position: absolute;
+    width: 381px;
+    height: 182px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+.cursoG4 div {
+    position: absolute;
+    width: 382px;
+    height: 87px;
+    left: -1px;
+    top: 100px;
+    background: #ADFF7B;
+    opacity: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.actividades {
+    position: absolute;
+    width: 400px;
+    height: 437px;
+    left: 1020px;
+    top: 208px;
+    border: 10px solid #FF7D7D;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.actividades div:nth-child(1) {
+    position: absolute;
+    left: 0px;
+    width: 380px;
+    height: 94px;
+    top: 42px;            
+    background: rgba(255, 156, 125, 0.8);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-180deg);
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+.actividades div:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    width: 380px;
+    height: 94px;
+    top: 136px;            
+    background: rgba(255, 156, 125, 0.8);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-180deg);
+}
+.actividades div:nth-child(3) {
+    position: absolute;
+    left: 0px;
+    width: 380px;
+    height: 94px;
+    top: 229px;            
+    background: rgba(255, 156, 125, 0.8);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-180deg);
+    text-align: left;
+}
+.actividades div:nth-child(4) {
+    position: absolute;
+    left: 0px;
+    width: 380px;
+    height: 94px;
+    top: 323px;            
+    background: rgba(255, 156, 125, 0.8);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-180deg);
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+.actividades h3:nth-child(5) {
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    left: 245px;
+    top: -15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+.actividades div:nth-child(1) h3 {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    -webkit-transform: rotate(-180deg);
+    color: #000000;
+}
+.actividades div:nth-child(1) p {
+    position: absolute;
+    left: 181.4px;
+    top: 3px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    -webkit-transform: rotate(-180deg);
+}
+.actividades div:nth-child(1) img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 60%;
+    left: 300px;
+    top: 10px;
+    transform: rotate(-180deg);
+}
+.actividades div:nth-child(2) h3 {
+    position: absolute;
+    top: 17px;
+    left: 101px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    -webkit-transform: rotate(-180deg);
+    color: #000000;
+}
+.actividades div:nth-child(2) p {
+    position: absolute;
+    left: 180px;
+    top: 3px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    -webkit-transform: rotate(-180deg);
+}
+.actividades div:nth-child(2) img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 60%;
+    left: 300px;
+    top: 10px;
+    transform: rotate(-180deg);
+}
+.actividades div:nth-child(3) h3 {
+    position: absolute;
+    top: 17px;
+    left: 33px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    -webkit-transform: rotate(-180deg);
+    color: #000000;
+}
+.actividades div:nth-child(3) p {
+    position: absolute;
+    left: 180px;
+    top: 3px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    -webkit-transform: rotate(-180deg);
+}
+.actividades div:nth-child(3) img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 60%;
+    left: 300px;
+    top: 10px;
+    transform: rotate(-180deg);
+}
+.actividades div:nth-child(4) h3 {
+    position: absolute;
+    top: 17px;
+    left: 122px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    -webkit-transform: rotate(-180deg);
+    color: #000000;
+}
+.actividades div:nth-child(4) p {
+    position: absolute;
+    left: 180px;
+    top: 3px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    -webkit-transform: rotate(-180deg);
+}
+.actividades div:nth-child(4) img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 60%;
+    left: 300px;
+    top: 10px;
+    transform: rotate(-180deg);
+}

@@ -1,0 +1,1188 @@
+*{
+    padding:0px;
+    margin:0px;
+    }
+    #header{
+    margin:auto;
+    width:2000px;
+    }
+    ul, ol {
+    list-style:none;
+    }
+    .nav li a {
+        position:fixed;
+    background-color:#93ABFF;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+    border-radius: 35px 35px 35px 35px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px; 
+    
+    
+    }
+    #li1{
+        position:relative; top:-295; left:1160
+    }
+    #li2{
+        position:relative; top:-295; left:145
+    }
+    #li3{
+        position:relative; top:-295; right:25
+    }
+
+#li4{
+    position:relative; top:-295; left:260
+}
+#li5{
+    position:relative; top:-295; left:420
+}
+#li6{
+    position:relative; top:-295; left:700
+}
+
+   
+
+    h3 {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+      
+
+      }
+    
+      
+    .nav li a:hover{
+    background-color:#68F6F3;
+    }
+    .nav > li {
+    float:left;
+    position:relative;
+    top:-280px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px; 
+    
+/*font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;*/
+
+color: #000000;
+    
+    }
+    .nav li ul{
+    display:inline-block;
+    position:absolute;
+    min-width:340px;
+    }
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#fondo{
+    width:1280px;
+    height: 721px;
+    background: url('../img/totallll.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.img0{
+    position:fixed;
+    top:140px;
+    left:1115px;
+    width: 225px;
+    height:489px;
+    border-radius: 20px 20px 20px 20px;
+}
+.txt0{
+    position:fixed; top:370px; left:1137px;
+    font-family: Sulphur Point;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 20px;
+
+color: #000000;
+
+}
+/*Ciencias naturales*/
+.Ciencias_Naturales{
+    position: fixed;
+            top:160px;
+            left:50px;
+            width: 306px;
+            height: 227.59px;
+            border-radius: 15px 15px 0px 0px;
+
+}
+.img1{
+    position: fixed;
+    top:160px;
+    left:50px;
+    width: 306px;
+    height: 128.59px;
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
+footer{
+    position: fixed;
+    top:290px;
+    width: 306px;
+    height: 99px;
+    left: 50px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(214, 230, 226, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+    
+}
+.img3{
+    position: fixed;
+    top:315px;
+    width: 41px;
+    height: 29px;
+    left:65px;
+   
+}
+.txt1{
+    position:fixed; top:325px; left:105px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Lenguaje*/
+.Lenguaje{
+    position: fixed;
+    top:400px;
+    left:50px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.img4{
+    position: fixed;
+    top:400px;
+    left:50px;
+    width: 306px;
+    height: 128.59px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+footer-1{
+position: fixed;
+top:528px;
+width: 306px;
+height: 99px;
+left: 50px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+
+}
+.img6{
+position: fixed;
+top:555px;
+width: 41px;
+height: 29px;
+left:65px;
+}
+.txt2{
+    position:fixed; top:565px; left:105px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Matemáticas*/
+.Matematicas{
+    position: fixed;
+        top:160px;
+        left:425px;
+        width: 306px;
+        height: 227.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+.img7{
+    position: fixed;
+        top:160px;
+        left:425px;
+        width: 306px;
+        height: 128.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-2{
+    position: fixed;
+    top:288px;
+    width: 306px;
+    height: 99px;
+    left: 425px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img9{
+    position: fixed;
+    top:315px;
+    width: 41px;
+    height: 29px;
+    left:440px;
+
+}
+.txt3{
+    position:fixed; top:320px; left:480px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*Sociales*/
+.Sociales{
+    position: fixed;
+        top:400px;
+        left:425px;
+        width: 306px;
+        height: 227.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+
+.img10{
+    position: fixed;
+        top:400px;
+        left:425px;
+        width: 306px;
+        height: 128.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-3{
+    position: fixed;
+    top:528px;
+    width: 306px;
+    height: 99px;
+    left: 425px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+
+}
+.img12{
+    position: fixed;
+    top:555px;
+    width: 41px;
+    height: 29px;
+    left:440px;
+}
+.txt4{
+    position:fixed; top:555px; left:480px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Educación fisica*/
+.Educacion{
+    position: fixed;
+        top:160px;
+        left:800px;
+        width: 306px;
+        height: 227.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+.img13{
+    position: fixed;
+        top:160px;
+        left:800px;
+        width: 306px;
+        height: 128.59px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-4{
+    position: fixed;
+    top:288px;
+    width: 306px;
+    height: 99px;
+    left: 800px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img15{
+    position: fixed;
+    top:315px;
+    width: 41px;
+    height: 29px;
+    left:815px;
+
+}
+.txt5{
+    position:fixed; top:320px; left:855px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+/*Ingles*/
+.Ingles{
+    position: fixed;
+    top:400px;
+    left:800px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 0px 0px;
+}
+.img16{
+    position: fixed;
+    top:400px;
+    left:800px;
+    width: 306px;
+    height: 128.59px;
+    border-radius: 15px 15px 0px 0px;
+}
+footer-5{
+    position: fixed;
+    top:528px;
+    width: 306px;
+    height: 99px;
+    left: 800px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img18{
+    position: fixed;
+    top:555px;
+    width: 41px;
+    height: 29px;
+    left:815px;
+
+}
+.txt6{
+    position:fixed; top:560px; left:857px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*CONTENIDO MATEMATICAS*/
+.Numeros1{
+    position: fixed;
+            top:160px;
+            left:40px;
+            width: 285px;
+            height: 213px;
+            border-radius: 15px 15px 15px 15px;
+
+}
+.img19{
+    
+    position: fixed;
+            top:160px;
+            left:40px;
+            width: 285px;
+            height: 115px;
+            border-radius: 15px 15px 0px 0px;
+
+}
+footer-6{
+    position: fixed;
+    top:272px;
+    width: 285px;
+    height: 98px;
+    left: 40px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+
+}
+.img21{
+    position: fixed;
+    top:300px;
+    width: 40px;
+    height: 26px;
+    left:50px;
+
+}
+.txt7{
+    position:fixed; top:310px; left:85px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*dos*/
+.Mdivi{
+    position: fixed;
+    top:400px;
+    left:40px;
+    width: 285px;
+    height:213px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.img22{
+    position: fixed;
+    top:400px;
+    left:40px;
+    width: 285px;
+    height:115px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+footer-7{
+position: fixed;
+top:515px;
+width: 285px;
+height: 98px;
+left: 40px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+
+}
+.img24{
+position: fixed;
+top:545px;
+width: 40px;
+height: 26px;
+left:50px;
+
+}
+.txt8{
+    position:fixed; top:550px; left:85px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*3*/
+.Numeros3{
+    position: fixed;
+        top:160px;
+        left:375px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+
+}
+.img25{
+    position: fixed;
+        top:160px;
+        left:375px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-8{
+    position: fixed;
+    top:272px;
+    width: 285px;
+    height: 98px;
+    left: 375px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img27{
+    position: fixed;
+    top:300px;
+    width: 41px;
+    height: 29px;
+    left:385px;
+}
+.txt9{
+    position:fixed; top:310px; left:422px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+/*3*/
+.Numeros2{
+    position: fixed;
+        top:160px;
+        left:710px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+
+}
+.img28{
+    position: fixed;
+        top:160px;
+        left:710px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-9{
+    position: fixed;
+    top:272px;
+    width: 285px;
+    height: 98px;
+    left: 710px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img30{
+    position: fixed;
+    top:300px;
+    width: 41px;
+    height: 29px;
+    left:725px;
+
+}
+.txt10{
+    position:fixed; top:310px; left:765px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*5*/
+.Figuras{
+    position: fixed;
+        top:400px;
+        left:375px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+
+}
+
+.img31{
+    position: fixed;
+        top:400px;
+        left:375px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-10{
+    position: fixed;
+    top:515px;
+    width: 285px;
+    height: 98px;
+    left: 375px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+
+}
+.img33{
+    position: fixed;
+    top:545px;
+    width: 41px;
+    height: 29px;
+    left:385px;
+
+}
+.txt11{
+    position:fixed; top:545px; left:422px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*6*/
+.Perimetro{
+    position: fixed;
+        top:400px;
+        left:710px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+
+}
+.img34{
+    position: fixed;
+        top:400px;
+        left:710px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-11{
+    position: fixed;
+    top:515px;
+    width: 285px;
+    height: 98px;
+    left: 710px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+
+}
+.img36{
+    position: fixed;
+    top:545px;
+    width: 41px;
+    height: 29px;
+    left:725px;
+
+}
+.txt12{
+    position:fixed; top:550px; left:765px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.Suma{
+    position: fixed;
+        top:160px;
+        left:1045px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+}
+.img37{
+    position: fixed;
+        top:160px;
+        left:1045px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+}
+footer-12{
+    position: fixed;
+    top:272px;
+    width: 285px;
+    height: 98px;
+    left: 1045px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+}
+.img39{
+    position: fixed;
+    top:300px;
+    width: 41px;
+    height: 29px;
+    left:1060px;
+
+}
+.txt13{
+    position:fixed; top:310px; left:1100px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*8*/
+
+.Plano{
+    position: fixed;
+        top:400px;
+        left:1045px;
+        width: 285px;
+        height: 213px;
+        border-radius: 15px 15px 15px 15px;
+
+}
+.img40{
+    position: fixed;
+        top:400px;
+        left:1045px;
+        width: 285px;
+        height: 115px;
+        border-radius: 15px 15px 0px 0px;
+
+}
+footer-13{
+    position: fixed;
+    top:515px;
+    width: 285px;
+    height: 98px;
+    left: 1045px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(246, 246, 246, 0.67);
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0px 0px 15px 15px;
+
+}
+.img42{
+    position: fixed;
+    top:545px;
+    width: 41px;
+    height: 29px;
+    left:1060px;
+
+}
+.txt14{
+    position:fixed; top:550px; left:1100px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+
+
+
+
+/*Contenido de multidiv*/
+.Concepto{
+    position: fixed;
+    top:160px;
+    left:90px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+}
+.img43{
+    position: fixed;
+    top:160px;
+    left:90px;
+    width: 306px;
+    height: 128.59px;
+    border-radius: 15px 15px 0px 0px;
+}
+footer-14{
+position: fixed;
+top:290px;
+width: 306px;
+height: 99px;
+left: 90px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+
+/*position: relative;
+left: 10px;
+top: 500px;
+bottom: 0px;*/
+}
+.img45{
+position: fixed;
+top:315px;
+width: 41px;
+height: 29px;
+left:105px;
+
+}
+.txt15{
+    position:fixed; top:325px; left:145px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Lenguaje*/
+.Completa{
+    position: fixed;
+    top:400px;
+    left:90px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+    
+    }
+.img46{
+position: fixed;
+top:400px;
+left:90px;
+width: 306px;
+height: 128.59px;
+border-radius: 15px 15px 0px 0px;
+
+}
+.img47{
+position: fixed;
+top:528px;
+width: 306px;
+height: 99px;
+left: 90px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+
+}
+.img48{
+position: fixed;
+top:555px;
+width: 41px;
+height: 29px;
+left:105px;
+
+}
+.txt16{
+    position:fixed; top:565px; left:145px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Matemáticas*/
+.Multipli1{
+    position: fixed;
+    top:160px;
+    left:465px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+    
+    }
+.img49{
+position: fixed;
+top:160px;
+left:465px;
+width: 306px;
+height: 128.59px;
+border-radius: 15px 15px 0px 0px;
+
+}
+footer-16{
+position: fixed;
+top:288px;
+width: 306px;
+height: 99px;
+left: 465px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+}
+.img51{
+position: fixed;
+top:315px;
+width: 41px;
+height: 29px;
+left:480px;
+
+}
+.txt17{
+    position:fixed; top:320px; left:520px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*Sociales*/
+.Multipli2{
+    position: fixed;
+    top:400px;
+    left:465px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+    }
+.img52{
+position: fixed;
+top:400px;
+left:465px;
+width: 306px;
+height: 128.59px;
+border-radius: 15px 15px 0px 0px;
+
+}
+footer-17{
+position: fixed;
+top:528px;
+width: 306px;
+height: 99px;
+left: 465px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+
+}
+.img54{
+position: fixed;
+top:555px;
+width: 41px;
+height: 29px;
+left:480px;
+
+}
+.txt18{
+    position:fixed; top:555px; left:520px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+/*Educación fisica*/
+.Divisiones1{
+    position: fixed;
+    top:160px;
+    left:840px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+    }
+.img55{
+position: fixed;
+top:160px;
+left:840px;
+width: 306px;
+height: 128.59px;
+border-radius: 15px 15px 0px 0px;
+
+}
+footer-18{
+position: fixed;
+top:288px;
+width: 306px;
+height: 99px;
+left: 840px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+}
+.img57{
+position: fixed;
+top:315px;
+width: 41px;
+height: 29px;
+left:845px;
+
+}
+.txt19{
+    position:fixed; top:320px; left:895px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+/*Ingles*/
+.Divisiones2{
+    position: fixed;
+    top:400px;
+    left:840px;
+    width: 306px;
+    height: 227.59px;
+    border-radius: 15px 15px 15px 15px;
+    }
+.img58{
+position: fixed;
+top:400px;
+left:840px;
+width: 306px;
+height: 128.59px;
+border-radius: 15px 15px 0px 0px;
+}
+footer-19{
+position: fixed;
+top:528px;
+width: 306px;
+height: 99px;
+left: 840px;
+border-radius: 0px 0px 15px 15px;
+background: rgba(246, 246, 246, 0.67);
+opacity: 0.7;
+filter:alpha(opacity=70);
+border-radius: 0px 0px 15px 15px;
+}
+.img60{
+position: fixed;
+top:555px;
+width: 41px;
+height: 29px;
+left:845px;
+
+}
+.txt20{
+    position:fixed; top:560px; left:897px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+
+/*Nota*/
+.img61{
+    position:fixed; top:150px; left:55px; 
+    border-radius: 0px 0px 10px 10px;
+    width:400px; height:110px;
+}
+footer-20{
+    position:fixed;  top:280px; left:55px; 
+    background: rgba(73, 202, 22, 0.67);
+    border-radius: 0px 0px 10px 10px;
+    width:400px;
+    height:40px;
+}
+footer-21{
+    position:fixed; top:330px; left:55px; 
+    background: rgba(207, 200, 200, 0.67);
+    border-radius: 10px 10px 0px 0px;
+     width:400px; height:220px
+}
+.txt21{
+    position:fixed; top:280px; left:140px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+}
+.txt22{
+    position:fixed; top:370px; left:60px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+.txt23{
+    position:fixed; top:411px; left:340px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+.txt24{
+    position:fixed; top:370px; left:340px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+#nombre{
+    color:rgb(59, 59, 63);
+    position: relative;
+    top:-380px;
+    left:30px;
+    font-family:Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px; 
+
+}
+
+

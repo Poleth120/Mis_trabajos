@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Login/CSS/Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sulphur+Point&display=swap" rel="stylesheet">
+</head>
+<style>
+   
+
+</style>
+<body>
+    <div class="popup">El registro se ha completado exitosamente</div>
+    <section>
+        <div class = "foto">
+            <img src="https://static.vecteezy.com/system/resources/previews/002/396/362/non_2x/funny-kid-flying-on-colorful-pencil-vector.jpg" alt="Imagen de fondo">
+        </div>
+            <div class="login-container">
+                <div class="login-info-container">
+                    <form class='input-container'>
+                        <input class='input' type='text'name="usuario" id="usuario" placeholder="Email o numero de telefono">
+                        <input class='input' type='password' placeholder="Contraseña">
+                        <p class='r'>Recuerdame</p>
+                        <p class='o'><a href="#">Olvidaste tu contraseña?</a></p>
+                        <button class='buttom' id="redireccion"><a href="#">Iniciar sesion</a></button>
+                    </form>
+                    <p class= 'enunciado'>o inicia sesion con tus redes sociales</p>
+                    <div class="social-login">
+                        <div class="social-login-element">
+                            <img class='image' src ="https://cutewallpaper.org/24/google-logo-2015-png/google-g-2015-logo-png-transparent-amp-svg-vector-freebie-supply.png" alt='google'>
+                        </div>
+                        <div class="social-login-element">
+                            <img class='image' src="/Login/Images/facebook.png" alt='facebook'>
+                        </div>
+                         <div class="social-login-element">
+                            <img class='image' src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt='twitter'>
+                        </div>
+                        <div class="social-login-element">
+                            <img class='image' src="https://es.logodownload.org/wp-content/uploads/2018/10/instagram-logo1-1024x1024.png" alt='instagram'>
+                        </div>
+                        <p class='n'>No tienes cuenta?<a href="Curso-alumnos.html"> Adquiere un plan</a></p>
+                        <p class='leyenda'>@2022</p>
+                    </div>
+                </div>
+           </div>  
+    </section>  
+    <div class="buss">
+        <p>Tipo de usuario</p>
+    </div>
+    <div class="uss">
+        <p>Usuario</p>
+        <form>
+            :
+            <select  id="seleccion" onclick="switchop()">
+                <option selected disabled>Usuario</option>
+                <option value="Estudiante">Estudiante</option>
+                <option value="Maestro">Maestro</option>
+            </select>
+        </form>
+    </div>
+    <header>
+        <div class='selector'></div>
+            <nav class='nav'>
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="#">Quienes Somos</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="Contactos.html">Contactos</a></li>
+                    <li><a href="Login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+    </header>
+    <script src="/Login/JS/control.js"></script>
+</body>
+</html>

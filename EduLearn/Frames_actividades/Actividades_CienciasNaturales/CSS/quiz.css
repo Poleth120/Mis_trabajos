@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-image: url(IMAGENES/fu.jpg);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("Fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+
+
+/*PRINCIPAL*/
+
+.rec {
+    position: absolute;
+    width: 146px;
+    height: 49px;
+    left: 16px;
+    top: 19px;
+    background: #C4C4C4;
+    border-radius: 25px;
+}
+
+.primero h1 {
+    background: #f2f2f27e;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+
+/*TEXTO*/
+
+.textos-header h1 {
+    font-size: 30px;
+    color: #B4FF69;
+    align-items: center;
+}
+
+
+/*Bordes donde va el menu*/
+
+.nave nav {
+    background: #f2f2f28c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+
+/*BOTONES*/
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn1 {
+    border-radius: 10px;
+}
+
+.col-8 {
+    background-color: #bd68b150;
+    width: 800px;
+    height: 412px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.item {
+    position: absolute;
+    left: 10.43%;
+    right: 10.31%;
+    top: 20.14%;
+    bottom: 11.71%;
+    border-radius: 20px;
+    background: rgba(97, 189, 255, 0.9);
+    text-align: center;
+    margin-right: auto;
+    align-items: left;
+}
+
+.solar {
+    background: rgba(196, 196, 196, 0.19);
+    width: 900px;
+    height: 308px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+#title {
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.questions {
+    width: 90%;
+    padding: 2rem;
+    cursor: default;
+    border-radius: 1rem;
+}
+
+#question {
+    margin-bottom: 1rem;
+}
+
+.option {
+    margin-bottom: 0.5rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: lightblue;
+    border-radius: 1rem;
+}
+
+.option:hover {
+    color: white;
+}
+
+ol {
+    position: relative;
+    padding: 0 1.5rem;
+}
+
+span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+#answer {
+    margin-top: 2.5rem;
+}
+
+#stat {
+    margin-top: 1.5rem;
+    color: rgb(248, 246, 248);
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(61, 6, 52, 0.98);
+    background: rgba(176, 128, 255, 0.82);
+}
+
+button:active {
+    background: lavender;
+}
+
+#scoreboard,
+#answerBank {
+    width: 90%;
+    background: rgba(124, 40, 117, 0.301);
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+
+#score-btn,
+#check-answer {
+    margin-top: 1rem;
+}
+
+#score {
+    font-size: 2.5rem;
+}
+
+#answerBank li {
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+
+#answers {
+    margin-top: 1rem;
+}

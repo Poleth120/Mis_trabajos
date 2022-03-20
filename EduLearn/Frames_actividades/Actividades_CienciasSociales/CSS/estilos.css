@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-image: url(IMAGENES/fu.jpg);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("Fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+
+.rec {
+    position: absolute;
+    width: 146px;
+    height: 49px;
+    left: 16px;
+    top: 19px;
+    background: #C4C4C4;
+    border-radius: 25px;
+}
+
+
+/*PRINCIPAL*/
+
+.primero h1 {
+    background: #f2f2f293;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+
+/*TEXTO*/
+
+.textos-header h1 {
+    font-size: 30px;
+    color: #B4FF69;
+    align-items: center;
+}
+
+
+/*Bordes donde va el menu*/
+
+.nave nav {
+    background: #F2F2F2;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+
+/*BOTONES*/
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn1 {
+    border-radius: 10px;
+}
+
+.col-8 {
+    background-color: #B4FF69;
+    width: 800px;
+    height: 308px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.item {
+    position: absolute;
+    left: 10.43%;
+    right: 10.31%;
+    top: 20.14%;
+    bottom: 11.71%;
+    border-radius: 20px;
+    background: rgba(97, 189, 255, 0.9);
+    text-align: center;
+    margin-right: auto;
+    align-items: left;
+}
+
+.solar {
+    background: rgba(196, 196, 196, 0.19);
+    width: 900px;
+    height: 308px;
+    border: 10px solid #61BDFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
